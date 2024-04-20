@@ -9,10 +9,11 @@ that want to help.
 
 ### My First Contribution is the Error Handling Function
 
-> This is a simple function that opens 3 possibilities to handle the error given
-> First is panic the program (giving true to the errors.PanOrPrint, and nil to errors.Receive)
-> Second is to print in the stdout without panic (giving false to the errors.PanOrPrint, and nil to errors.Receive)
-> Third is to receive the error mensage in a string variable, giving the address in errors.Receive
+> This is a simple function that opens 3 possibilities to handle the error given:
+> *First is panic the program (giving true to the errors.PanOrPrint, and nil to errors.Receive)*
+> *Second is to print in the stdout without panic (giving false to the errors.PanOrPrint, and nil to errors.Receive)*
+> *Third is to receive the error mensage in a string variable, giving the address in errors.Receive*
+>
 > Here's a example
 >
 > `func main(){
