@@ -20,10 +20,10 @@ This is a **simple function that opens 3 possibilities to handle the error given
 ### Here's a example
 
     func main(){
-    var variableForError string
-    err := fmt.Errorf("Error Reached") //Here we are simulating a error
-    misc.NewErrors(false, &variableForError, err).AlertError() //Here we are calling the package with the function creating and giving the method
-    fmt.Println(variableForError) //Printing in stdout like a string
+        var variableForError string
+        err := fmt.Errorf("Error Reached") //Here we are simulating a error
+        misc.NewErrors(false, &variableForError, err).AlertError() //Here we are calling the package with the function creating and giving the method
+        fmt.Println(variableForError) //Printing in stdout like a string
     }
 
 The function seems with the same effect compared with a err != nil if statement, but I enjoyed to make this package
